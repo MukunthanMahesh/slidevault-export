@@ -1,0 +1,25 @@
+# Virtualenv / Python
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.Python
+
+# Secrets (never commit)
+slidevault.env
+config/slidevault.env
+*.env
+!config/slidevault.env.example
+
+# Downloads / local output
+exports/
+slidevault_exports/
+*.tif
+*.svs
+*.ndpi
+
+# Editor / OS
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
