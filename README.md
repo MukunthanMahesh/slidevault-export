@@ -2,8 +2,6 @@
 
 **v0.2.0** — Export whole-slide images and annotations from [SlideVault](https://slidevault.hurondigitalpathology.com/) (Cytomine).
 
-This program is intended for compute-server execution so assets land on project-specific storage. Authentication uses Playwright (headless Chromium) against Keycloak SSO. Credentials must not be committed.
-
 ## Layout
 
 ```text
